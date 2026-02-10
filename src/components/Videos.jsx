@@ -1,3 +1,7 @@
 export function Videos(){
-    return
+    return(
+        <h1>
+            Videos
+        </h1>
+    )
 }

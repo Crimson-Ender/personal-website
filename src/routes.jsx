@@ -11,6 +11,9 @@ export function Root(props){
         <div className="body">
             <main className="main"><Outlet/></main>
         </div>
+        <footer>
+            <GitHubFooter/>
+        </footer>
         </>
     )
 }
@@ -38,3 +41,10 @@ export function TopBar(){
     )
 }
 
+export function GitHubFooter(){
+    return(
+        <div class="footer">
+            <p>(c) 2026 Max Baker, the source code for this site is available on <a href="https://github.com/Crimson-Ender/personal-website">Github</a></p>
+        </div>
+    )
+}

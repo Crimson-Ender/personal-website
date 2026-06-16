@@ -1,0 +1,123 @@
+{
+    "1":{
+        "full_title":"Pharmacy GO! V2",
+        "subtitle":"Computer Science Capstone Project",
+        "project_id":1,
+        "short_title":"Pharmacy GO! 2",
+        "repo_link":"https://github.com/LucyCheng111/PharmacyGO",
+        "demo_link":"https://youtu.be/TsqCQg_F_OM",
+        "technologies":"Unity Engine, C#, Unity Cloud Services",
+        "description":"placeholder placeholder",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/1/"
+    },
+    "2":{
+        "full_title":"Virtual Reality Paleozoic Museum",
+        "subtitle":"VR Special Topics Term-Long Project",
+        "project_id":2,
+        "short_title":"VR Paleo Museum",
+        "repo_link":"https://github.com/Crimson-Ender?tab=repositories",
+        "demo_link":"https://media.oregonstate.edu/media/t/1_jrbeu6wn",
+        "technologies":"Unreal Engine, Meta Quest",
+        "description":"A fully-3D virtual reality museum with\r\ninteractive exhibits featuring major milestones\r\nin the evolution of life on earth during\r\nthe Paleozoic Era.",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/2/"
+    },
+    "3":{
+        "full_title":"Saturn and Moons",
+        "subtitle":"Intro to Computer Graphics Final Project",
+        "project_id":3,
+        "short_title":"Saturn and Moons",
+        "repo_link":"",
+        "demo_link":"https://youtu.be/Q6s0-m0V5js",
+        "technologies":"OpenGL, C++",
+        "description":"Modelled Saturn and its orbiting moons using OpenGL, moons orbit according to Kelper's laws of planetary motion",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/3/"
+    },
+    "4":{
+        "full_title":"Wave Simulation Shader",
+        "subtitle":"Computer Graphics Shaders Final Project",
+        "project_id":4,
+        "short_title":"Wave Shader",
+        "repo_link":"https://github.com/Crimson-Ender/Wave-Shader",
+        "demo_link":"https://youtu.be/A6uyhovErvY",
+        "technologies":"OpenGL, GLSL",
+        "description":"Modelled wave motion using GLSL vertex and fragment shaders",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/4/"
+    },
+    "5":{
+        "full_title":"NPS Explorer Website",
+        "subtitle":"CS 494 Advanced Web Development Final Project",
+        "project_id":5,
+        "short_title":"NPS Explorer",
+        "repo_link":"",
+        "demo_link":"",
+        "technologies":"JavaScript (React), CSS",
+        "description":"A website built using React that allows users to interface with the NPS API to get information about national parks across the United States",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/5"
+    },
+    "6":{
+        "full_title":"Taurpalin Course Management Service",
+        "subtitle":"CS 493 Cloud App Dev Final Project",
+        "project_id":6,
+        "short_title":"Taurpalin CMS",
+        "repo_link":"https://github.com/Crimson-Ender/cs-493-final-project",
+        "demo_link":"",
+        "technologies":"Python, Flask, Google App Engine, Google Cloud Datastore",
+        "description":"",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/6/"
+    },
+    "7":{
+        "full_title":"SmallShell",
+        "subtitle":"CS 374",
+        "project_id":7,
+        "short_title":"smallsh",
+        "repo_link":"https://github.com/Crimson-Ender/SmallShell",
+        "demo_link":"",
+        "technologies":"C",
+        "description":"",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/7/"
+    },
+    "8":{
+        "full_title":"Android Treasure Hunt App",
+        "subtitle":"CS 492 Mobile App Dev Final Project",
+        "project_id":7,
+        "short_title":"Treasure Hunt",
+        "repo_link":"https://github.com/Crimson-Ender/Android-Treasure-Hunt-App",
+        "demo_link":"https://youtu.be/A0bM7yORrMc",
+        "technologies":"Kotlin, Android Studio, Jetpack Compose",
+        "description":"",
+        "screenshots":[
+            "placeholder",
+            "placeholder"
+        ],
+        "url":"/portfolio/8/"
+    }
+    
+}

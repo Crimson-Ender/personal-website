@@ -1,0 +1,53 @@
+{
+    "1":{
+        "title":"Education - Bachelor of Science: Computer Science",
+        "subtitle":"Oregon State University, Sept. 2021 - June 2026",
+        "id":"1",
+        "skills":[
+            "C, C++, and C# Programming",
+            "Unity and Unreal Engine",
+            "OpenGL/GLSL Shaders",
+            "CUDA and OpenCL Parallel Programming",
+            "Python",
+            "HTML/JavaScript/React/CSS",
+            "Kotlin/Android Studio",
+            "Cybersecurity"
+        ],
+        "description":[
+            "Specialization in Game and Simulation Development",
+            "Took courses in Software Engineering, Computer Graphics, Virtual Reality, Android and Web Development, Operating Systems, and Parallel Programming",
+            "Gained proficiency in the C family of programming language, as well as Python and JavaScript, among others."
+        ]
+    },
+    "2":{
+        "title":"Student Technician",
+        "subtitle":"Oregon State University Information & Technology, June 2023 - July 2026",
+        "id":"2",
+        "skills":[
+            "ServiceNow",
+            "Microsoft Active Directory",
+            "Customer Service",
+            "Computer Configuration and Imaging",
+            "Device Repair"
+        ],
+        "description":[
+            "Provided technical assistance over the phone to students, staff, and faculty at Oregon State University; helping them troubleshoot problems with their software and hardware",
+            "Created detailed write ups of customer calls and the solutions we implemented to correct their problems and helped maintain a living knowledge base of articles relating to procedure and troubleshooting techniques.",
+            "Imaged, configured, deployed, and administered Windows and Mac computers on OSU’s enterprise environment."
+        ]
+    },   
+    "3":{
+        "title":"Student Developer",
+        "subtitle":"Oregon State University Information & Technology, April 2025 - June 2026",
+        "id":"3",
+        "skills":[
+            "JavaScript/Typescript-based web development",
+            "Windows Server",
+            "GitHub / Continous Integration"
+
+        ],
+        "description":[
+            "Maintained, updated, and developed OSU IT’s in-house employee management and employee lookup tools used by IT departments across the university using JavaScript."
+        ]
+    }   
+}

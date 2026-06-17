@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import {Root} from "../routes"
 
 export function ErrorPage(){
     return(
@@ -13,7 +14,7 @@ export function ErrorPage(){
 
         <br/>
 
-        <p>If something is not working as it should, please <a href="mailto:crimsonender99@gmail.com"> let me know.</a> -MB</p>
+        <p>If something is not working as it should, please <a href="mailto:max.crimsonender@gmail.com"> let me know.</a> -MB</p>
         </>
     )
 }

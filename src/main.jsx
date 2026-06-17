@@ -6,7 +6,7 @@ import { Root } from "./routes";
 import { AboutMe } from "./components/AboutMe";
 import { ErrorPage } from "./components/ErrorPage";
 import { Resume } from "./components/Resume";
-import {Portfolio} from "./components/Portfolio"
+import {Portfolio, ProjectEntry} from "./components/Portfolio"
 import {Videos} from "./components/Videos"
 import './index.css'
 
@@ -16,9 +16,21 @@ const router = createBrowserRouter([
         Component:Root,
         ErrorBoundary:ErrorPage,
         children:[
-            {index:true,Component:AboutMe},
-            {path:"resume",Component:Resume},
-            {path:"portfolio",Component:Portfolio},
+            {
+                index:true,
+                Component:AboutMe},
+            {
+                path:"resume",
+                Component:Resume},
+            {
+                path:"portfolio",
+                Component:Portfolio,
+                children:[{
+                    index: true,
+                    element:<Navigate to="1" replace/>,
+                    path:":projectId",
+                    Component:ProjectEntry
+                }]},
             {path:"videos", Component:Videos}
         ]
     }

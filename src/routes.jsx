@@ -1,4 +1,6 @@
 import { NavLink,Link,Outlet,useNavigate,useParams,useRouteError, useMatch, useLocation } from "react-router";
+import { Portfolio } from "./components/Portfolio";
+import projects from "./data/project.json"
 
 export function Root(props){
     return(
@@ -9,6 +11,7 @@ export function Root(props){
             </header>
         </div>
         <div className="body">
+            <SideBar/>
             <main className="main"><Outlet/></main>
         </div>
         <footer>
@@ -43,8 +46,41 @@ export function TopBar(){
 
 export function GitHubFooter(){
     return(
-        <div class="footer">
+        <div className="footer">
             <p>(c) 2026 Max Baker, the source code for this site is available on <a href="https://github.com/Crimson-Ender/personal-website">Github</a></p>
         </div>
     )
+}
+
+export function SideBar(){
+    const {pathname} = useLocation()
+    
+    let category = null
+    let basePath=""
+    let labelKey=""
+
+    if(pathname.startsWith("/portfolio")){
+        category = Object.entries(projects)
+        basePath= "/portfolio"
+        labelKey="short_title"
+    }
+    
+    if(!category) return null;
+
+    return(
+        <aside className="sidebar">
+            <ul className="sideBarList">
+            {category.map(([id,item])=>(
+                <li key={id}>
+                    <NavLink
+                    to={`${basePath}/${id}`}
+                    className="sideLink">
+                        {item[labelKey]}
+                    </NavLink>
+                </li>
+            ))}
+            </ul>
+        </aside>
+    )
+
 }
